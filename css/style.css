@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,h2,h3,h4,h5{
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    font-size: 18px;
+    color: #ff441b;
+    line-height: 35px;
+}
+h2{
+font-size: 40px;
+font-weight: 700;
+line-height: 65px;
+color: #37000a;
+text-transform: capitalize;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.header{
+    background: url(../img/heder-back.jpg) center center no-repeat;
+    background-size: cover;
+}
+.header .topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header .right {
+    display: flex;
+}
+.header .right a {
+    margin-right: 20px;
+    color: #000;
+}
+.header .right a i{
+    margin-right: 5px;
+    color: #ff441b;
+}
+
+.header .left i{
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    transition: 0.7s;
+    
+    
+}
+.header .left i:hover{
+    color: #ff441b;
+   transition: 0.7s;
+    
+}
+.header .left {
+    display: flex;
+}
+.header img {
+    position: absolute;
+    height: 70px;
+    bottom: 1px;
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.navbar-nav .nav-item a{
+    color: #fff;
+}
+.btns {
+    padding-top: 7px;
+}
+.btns a {
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    color: #ff441b;
+    background: #fff;
+    border-radius: 4px;
+    transition: 0.7s;
+}
+.btns a:hover{
+    background: transparent;
+    color: #fff;
+    transition: 0.7s;
+}
+.banner{
+    background: url(../img/banner-back.png) center center no-repeat;
+    background-size: cover;
+    height: 87vh;
+}
+.banner h5 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.banner h1{
+    font-size: 70px;
+    color: #fff;
+    padding: 20px 0;
+    font-weight: 700;
+}
+.banner p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 25px;
+    line-height: 30px;
+}
+.banner .btns a {
+    border: 2px solid #ff441b;;
+    padding: 10px 25px;
+    color: #fff;
+    background: #ff441b;
+    border-radius: 4px;
+    transition: 0.7s;
+}
+.banner .btns a:hover{
+    transition: 0.7s;
+    background: transparent;
+}
+.banner-pic img{
+    margin-top: 150px;
+    
+   ;
+   
+}
+
+/* services section */
+.services{
+    padding: 100px 0;
+  
+}
+.services .services-title h2{
+    text-transform: capitalize;
+  
+    padding: 0 265px;
+}
+.services .services-pic{
+    padding-top: 50px;
+}
+.services .services-pic img {
+    border-radius: 30px;
+    transition: 0.7s;
+    cursor: pointer;
+   
+}
+.services .services-pic img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.services .services-innerbox {
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 35px;
+    background: #fff;
+    position: relative;
+    bottom: 50px;
+
+}
+.services .services-innerbox .icon i {
+    padding: 10px 10px;
+    background: #ff441b;
+    border-radius: 5px;
+}
+
+/* About Us Section */
+.about-us{
+    background: #0c0c25;
+    padding: 50px;
+}
+.about-us .about-ontetnt h2{
+    color: #fff;
+    width: 85%;
+    padding-top:15px;
+}
+.about-us .about-ontetnt p{
+    color: #fff;
+    width: 80%;
+    padding:  15px 0 15px ;
+}
+.about-us .about-ontetnt a{
+    background: #ff441b;
+    color: #fff;
+    border: 1px solid #ff441b;
+    transition: 0.7s;
+    padding: 15px 30px;
+    font-weight: 700;
+}
+.about-us .about-ontetnt a:hover{
+    background: transparent;
+    transition: 0.7s;
+}
+.about-us .about-ontetnt .inner-content{
+    display: flex;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.about-us .about-ontetnt .inner-content .icon i{
+    margin-right: 10px;
+    color: #ff441b;
+}
+.about-btn.btns {
+    padding-top: 10px;
+}
+/* feture section */
+.feature{
+    padding: 50px 0;
+}
+.feature .feature-title {
+    width: 90%;
+}
+.feature .feture-btn a{
+    padding: 15px 30px;
+    color: #fff;
+    background: #ff441b;
+    font-weight: 700;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+.feature .feture-btn a:hover{
+    color: #ff441b;
+    border: 1px solid #ff441b;
+    background: transparent;
+    transition: 0.7s;
+}
+.feature .card {
+    text-align: center;
+    border-radius: 5%;
+    transition: 0.7s;
+    
+}
+
+.feature .cust-padd{
+    padding: 50px 0 0 0;
+}
+.feature .card  h3.card-title {
+    font-size: 21px;
+    font-weight: 600;
+}
+.feature .card img{
+    border-radius: 5%;
+}
+.feature .card  .card-btns {
+    padding: 10px 0;
+}
+
+.feature .card a.btns {
+    border: 1px solid #ff441b;
+    padding: 10px 20px;
+    background: #ff441b;
+    color: #fff;
+    border-radius: 5%;
+   
+    transition: 0.7s;
+}
+.feature .card a.btns:hover{
+    color: #ff441b;
+    background: transparent;
+    transform: 0.7s;
+}
+
+.feature .cust-card {
+    position: relative;
+    bottom: 80px;
+    left: 40px;
+}
+.feature .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: 0.7s;
+   
+}
+/* testimonials section */
+.tetimonial{
+    padding: 50px 0 100px;
+    background: url(../img/testi.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+   
+}
+.tetimonial .tetimonial-title{
+    padding-bottom: 20px;
+}
+.tetimonial .testi-box {
+    background: #fff;
+    border-radius: 10px;
+    padding:  0 30px 30px 20px;
+   
+}
+.tetimonial .testi-box .quota i{
+    font-size: 40px;
+    color: #ff441b;
+    padding-bottom: 30px;
+}
+.tetimonial .testi-box .testi-conmtent .details .profile h5{
+    padding-top:15px;
+}
+.swiper {
+    width: 100%;
+   
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    filter: blur(2px);
+  }
+  .swiper-slide.swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-active {
+    filter: blur(0px);
+  }
+  .swiper-3d .swiper-slide-shadow-left {
+    background-image: none;
+}
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
+/* logo-caresole Section */
+.logo-caresole {
+    padding: 50px 0;
+   
+}
+.owl-nav {
+    display: none;
+}
+/* call-to-action section */
+.call-to-action{
+    padding: 50px 0 ;
+    background: url(../img/cta-back-2.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+
+}
+.call-to-action .cta-title  h2{
+    color: #fff;
+} 
+.call-to-action .cta-title p {
+    padding: 0 150px;
+    color: #fff;
+}
+.call-to-action .cta-btn{
+    padding-top: 30px;
+    animation: btns 6s ease-in-out infinite;
+
+}
+@keyframes btns {
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(30px);
+        
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.call-to-action .cta-btn a{
+    background: #ff441b;
+    color: #fff;
+    border: 1px solid #ff441b; 
+}
+.call-to-action .cta-btn a:hover{
+    background: transparent;
+    border: 1px solid #ff441b;
+    transition: 0.7s;
+}
+/* contact Section */
+.contact{
+    padding: 100px;
+    background: url(../img/contact-back.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.contact .contact-pic img{
+    width: 65%;
+}
+.contact .contact-inner h2{
+    color: #ff441b;
+} 
+.contact .contact-inner .form-control {
+    display: block;
+    width: 100%;
+ padding-top: 12px;
+ padding-bottom: 12px;
+    background-color: #ff441b;
+    color: #fff;
+    font-weight: 500;
+}
+.contact .contact-inner textarea {
+    height: 150px;
+    
+}
+.contact .contact-inner .contact-btn{
+    padding-top: 30px;
+    width: 100%;
+    display: block;
+}
+.contact .contact-inner .contact-btn a{
+    padding: 15px 30px;
+    background: #ff441b;
+    border: 1px solid #ff441b;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+
+
+}
+
+.contact .contact-inner .contact-btn a:hover{
+    transition: 0.7s;
+    color: #ff441b;
+    background: transparent;
+    border: 1px solid #ff441b;
+}
+
+/* footer section */
+.fotter {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(115, 114, 141, 0.7) 0%,
+      rgba(0, 0, 106, 0.7) 35%,
+      rgba(41, 45, 45, 0.7) 100%
+    ),
+    url(../img/h-1.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    color: #fff;
+}
+.fotter .icon-details{
+    display: flex;
+    margin-top: 20px;
+}
+.fotter .icon-details i{
+    margin-right: 15px;
+   
+}
+.fotter .socail-icon i{
+    margin: 20px 25px 0 0;
+    padding: 12px 12px;
+    background: #ff441b;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.fotter .socail-icon i:hover{
+    background: #007aff;
+    color: #ff441b;
+    transition: 0.7s;
+}
+.fotter .menu ul li {
+    list-style: none;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.fotter .menu ul li a{
+    color: #fff;
+    font-size: 16px;
+    transition: 0.7s;
+}
+.fotter .menu ul li a:hover{
+    color: #ff441b;
+    transition: 0.7s;
+}
+.fotter .menu{
+    margin-left: 30px;
+}
+/* copyright */
+.copyright{
+    background: #24233a;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+}
